@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/sh
+set -e
 git config --global user.email "noone@example.com"
 git config --global user.name "Actions Build"
 mv main.sh.x main
