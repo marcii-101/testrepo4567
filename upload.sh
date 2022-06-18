@@ -6,5 +6,6 @@ mkdir -p build/
 mv main.sh.x build/main
 sha256sum build/main > build/main.sha256sum
 git add build/main
+git add build/main.sha256sum
 git commit -m "Add build on $(date)"
 git push
